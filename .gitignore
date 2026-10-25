@@ -1,0 +1,28 @@
+# Credentials and machine-local settings
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+.local/
+
+# Full conversation exports stay in the original local workspace
+/conversation_review/
+
+# Python and common build outputs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+/build/
+/install/
+/log/
+cmake-build-*/
+
+# Editor / operating-system temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+*.tmp
